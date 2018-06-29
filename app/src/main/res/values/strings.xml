@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string name="title">Textview</string>
+    <string name="genre">Textview</string>
+    <string name="year">Textview</string>
+    <string name="Image">Image</string>
+</resources>
