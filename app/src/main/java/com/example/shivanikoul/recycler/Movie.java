@@ -1,5 +1,7 @@
 package com.example.shivanikoul.recycler;
 
+import android.media.Image;
+
 public class Movie {
     private String title, genre, year;
     private int image;
@@ -8,7 +10,7 @@ public class Movie {
         this.title = title;
         this.genre = genre;
         this.year = year;
-        this.image =image;
+        this.image = image;
     }
 
 
@@ -47,4 +49,4 @@ public class Movie {
 
 
 }
-}
+

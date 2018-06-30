@@ -33,16 +33,16 @@ public class MainActivity extends AppCompatActivity {
         }
 
         private void prepareMovieData() {
-            Movie movie = new Movie("3 Idiots", "Comedy & Drama", "2009");
-            movie.setimage(R.drawable.idiot);
+            Movie movie = new Movie("Fanaa", "Bollywood, Romance Film, Thriller, Musical, Drama, ", "2012");
+            movie.setimage(R.drawable.fanna);
             movieList.add(movie);
 
-            movie = new Movie("Harry Potter", "Fiction, Adventure Film, Family film", "2002");
-            movie.setimage(R.drawable.harrypotter);
+            movie = new Movie("Hichki", "Comedy, Drama", "2018");
+            movie.setimage(R.drawable.hichki);
             movieList.add(movie);
 
-            movie = new Movie("Krrish", "Action & Adventure", "2006");
-            movie.setimage(R.drawable.krrish);
+            movie = new Movie("Queen", "Bollywood, Comedy, Adventure Film, Drama, ","2018");
+            movie.setimage(R.drawable.queen);
             movieList.add(movie);
 
             moveiAdapter.notifyDataSetChanged();
